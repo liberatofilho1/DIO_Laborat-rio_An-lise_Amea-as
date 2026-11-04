@@ -17,20 +17,21 @@ Este projeto foi desenvolvido para fins estritamente educacionais e de pesquisa 
 
 ### 2. Keylogger Simulado
 * **Funcionamento:** Utiliza a biblioteca `pynput` para escutar e registrar eventos de digitação do teclado em um arquivo de texto local (`log_teclas.txt`).
-'''
+```bash
 pip install pynput --break-system-packages
-'''
-´´´
+```
+```bash
 python Keylogger/Kaylogger.py  
-´´´
+```
 * **Mitigação:** Evidencia a necessidade de uso de **soluções EDR/Antivírus modernos** capazes de detectar requisições de *hooks* globais no sistema operacional e o uso de teclados virtuais para inserção de senhas críticas.
 
 ---
 
 ## 🚀 Como Executar o Laboratório (Ambiente Seguro)
-se uma máquina virtual ou um ambiente local protegido.
+Use uma máquina virtual ou um ambiente local protegido.
 
 🛡️ Medidas de Defesa e Conscientização
+
 Para proteger ambientes corporativos e domésticos contra essas ameaças, recomenda-se:
 
 Conscientização do Usuário: Treinamentos periódicos contra phishing e engenharia social (vetor primário de infecção).
