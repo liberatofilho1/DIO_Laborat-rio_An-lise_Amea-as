@@ -15,8 +15,10 @@ Este projeto foi desenvolvido para fins estritamente educacionais e de pesquisa 
 * **Funcionamento:** Utiliza a biblioteca `cryptography` (Fernet) para gerar uma chave simétrica, criptografar arquivos de texto de teste (`teste_dados.txt`) e gerar um arquivo de aviso de resgate (`LEIA_ISSO.txt`).
 * **Mitigação:** Demonstra a importância de manter rotinas de **backup offline (regra 3-2-1)** e políticas rígidas de controle de acesso a arquivos sensíveis.
 * Arquivos e código utilizado localizado
+
 malware/dec_ransomware.py 
-e malware/enc_ransomware.py
+
+malware/enc_ransomware.py
 
 ### 2. Keylogger Simulado
 * **Funcionamento:** Utiliza a biblioteca `pynput` para escutar e registrar eventos de digitação do teclado em um arquivo de texto local (`log_teclas.txt`).
@@ -27,8 +29,8 @@ pip install pynput --break-system-packages
 python Keylogger/Kaylogger.py  
 ```
 Códigos utilizado e arquivos estão localizados nos caminhos 
-malware/keylogger.py
 
+malware/keylogger.p
 malware/keylogger_email.pyw
 
 * **Mitigação:** Evidencia a necessidade de uso de **soluções EDR/Antivírus modernos** capazes de detectar requisições de *hooks* globais no sistema operacional e o uso de teclados virtuais para inserção de senhas críticas.
