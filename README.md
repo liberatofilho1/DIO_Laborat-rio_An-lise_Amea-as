@@ -28,6 +28,7 @@ python Keylogger/Kaylogger.py
 ```
 Códigos utilizado e arquivos estão localizados nos caminhos 
 malware/keylogger.py
+
 malware/keylogger_email.pyw
 
 * **Mitigação:** Evidencia a necessidade de uso de **soluções EDR/Antivírus modernos** capazes de detectar requisições de *hooks* globais no sistema operacional e o uso de teclados virtuais para inserção de senhas críticas.
